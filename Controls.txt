@@ -1,0 +1,16 @@
+Controls:
+
+Setting:
+	Closing the application -> escape
+
+Game:
+	Moving:
+		jump -> w or arrow key up or space
+		move left -> a or arrow key left
+		move right -> d or arrow key right
+	
+	Restarting:
+		restart -> r
+		restart after death -> enter or r
+		
+	Closing the application -> escape

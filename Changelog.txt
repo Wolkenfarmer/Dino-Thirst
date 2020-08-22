@@ -1,0 +1,103 @@
+Version 1.0 (23.07.2019)
+
+Version 1.1 (24.07.2019)
+	- deleted key-images (were only for debugging) (23.07.2019)
+	- deleted unnecessary classes intValue, longValue and doubleValue (23.07.2019)
+	- setStage-title (23.07.2019)
+	- performance: Game over screen printed once (24.07.2019)
+	- respawning (24.07.2019)
+	- added different cactus types (24.07.2019)
+
+Version 1.2 (29.07.2019)
+	- added java doc (author, since, version) (24.07.2019)
+	- exportet game + gameLogicTick into seperated Game class (24.07.2019)
+	- little collision improvement: smaler rectangles (24.07.2019)
+	- performance: added layers: not always repainting Background (25.07.2019)
+	- score for jumping over cactus in console (25.07.2019)
+		- bugfix: resetting score when dead (29.07.2019)
+		- bugfix: cactus only counted when completely passed: jumping on cactus doesn't count anymore (29.07.2019)
+	- new death screen
+		- death screen now seperate group with childs (28.07.2019)
+		- screen turns darker when dead (28.07.2019)
+		- new centered text with own settings (28.07.2019)
+
+Version 1.3 (02.09.2019)
+	- end-score shown at death screen (31.07.2019)
+	- gameScrene now BorderPane (18.08.2019)
+		- ingame score display (18.08.2019)
+		- ingame version display (18.08.2019)
+		- ingame fps display (18.08.2019)
+	- new cactus graphics pixeled by the seal implemented (22.08.2019)
+	- changed project name to "dinoThirst" (22.08.2019)
+	- user request: pixel-perfect collsion detection implemented (28.08.2019)
+	- control changes
+		- r for restarting (02.09.2019)
+		- enter instead of space for respawning after death (02.09.2019)
+		- w & enter, a and d for moving too, alongside up, left, right (02.09.2019)
+		- maximum fall velocity (02.09.2019)
+		- escape to close the game (02.09.2019)
+		- Controls.txt (02.09.2019)
+	- Credits.txt (02.09.2019)
+
+Version 1.4 (09.11.2019)
+	- reorganized packages (22.09.2019)
+	- extra-class GuiContent for building the gui and reorganizing background image loading (22.09.2019)
+	- added declarations (22.09.2019)
+	- added lifebar and lifes (27.09.2019)
+	- performance: extracted death-screen and restarting from animation timer (07.10.2019)
+	- bugfix: dino jumped sometimes too high (07.10.2019)
+	- fullscreen mode / changeable windowresolution (25.10.2019)
+		- mechanics and softcoding all necessary variables (21.10.2019)
+		- relative text sizes and positions (25.10.2019)
+		- cactus, dino and velocity scaling (25.10.2019)
+	- bugfix: game doesn't crash anymore when numLifes under one (04.11.2019)
+	- performance: deleted firstLogicStep request (04.11.2019)
+	- added increasing difficulty: 0 sandbox, 1 easy, 2 normal, 3 hard (04.11.2019)
+	- added settings window (09.11.2019)
+	
+Version 1.5
+	- storage - saves difficulty and numLifes of last session and presets ite after restart (29.11.2019)
+	- bugfix + performance: permanent slight glitching through ground -> rework of jump mechanis (15.01.2020)
+	- uses only new graphics by seal and new text colors (15.01.2020)
+
+To-Do:
+	- bug: fps-text right after revive unreliable 
+	- bug: spawning one cactus in sandbox / peaceful
+	- ingame settings / one stage with different scenes (V1.5)
+		- rework of settings gui (V 1.5)
+	- pause button (V1.5)
+	- back to settings (V1.5)
+	- highscore (V1.5)
+	- user request: double jump or different jump heights (V1.5)
+	- bug: overlapping cactus (V1.5)
+	- cactus intervall display (V1.5)
+	- performance: working with stage renderscale
+	- performance: different key event handlers for game and death screen
+	- performance: buffered images?
+	- performance: no canvas?
+	- performance: only changing text score and fps when needed 
+	- user request: running animation
+	- user request: damage effect
+	- local multiplayer
+	- replace stage-related sizes with screen-related
+	- getting no damage in sandbox difficulty
+	- debug / peformance .txt while playing
+	- menu (V2)
+		- basic settings
+		- highscores
+		- shop
+			- upgradeable speed
+			- upgradeable jumpvelocity
+			- upgradeable moonjump
+			- upgradeable cactus size
+			- pgradeable lifes
+			- down-key
+			- money (after passing enemy?)
+				- new score-count based on meters
+		- controls information (ingame)
+		- Credits information (ingame)
+	- changing controls by oneself
+	- new enemys
+	- javadoc description 
+	- profiles with passwords (V4)
+	- server with highscores

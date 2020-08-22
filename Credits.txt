@@ -1,0 +1,12 @@
+Credits:
+Program by: Wolkenfarmer
+Graphics by: the seal
+
+Thank you to the game testers for making user requests:
+	- the seal
+	- abc013
+	- Benedikt Schandl
+
+Motivation and inspiration:
+	- abc013
+	- a bloody setup for the original computer science project
