@@ -1,6 +1,7 @@
 # Dino Thirst
-Similar to the chrome dino game - an endless Jump and Run with a dino over cacti.
+Similar to the chrome dino game - an endless Jump and Run with a dino jumping over cacti.
 
+<br />
 
 ## Software requirements
 Java 10 or higher (javafx library is used)
@@ -40,4 +41,4 @@ Closing the application -> escape
 
 <br />
 
-## You run Dino Thirst at your own risk!
+## Made only for the learning experience and fun - you run Dino Thirst at your own risk!
